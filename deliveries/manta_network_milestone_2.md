@@ -34,6 +34,11 @@ Please provide a list of all deliverables of the milestone extracted from the in
 
 __Note__: in milestone 1 we have already shown most of the ZKP functionality of MantaPay (formerly known as manta dap). In 
 milestone 2 we focus on the following:
+* implement the  `split` and `merge` functionality (abstracted in the current `private_transfer` function) for private tokens. 
+    * users now can `split` a private `UTXO` token into 2 tokens, or vice versa.
+    * This functionality is not 
+a deliverable for this project. While building this project, it occured to us that this functionality is
+essentail to achieve a better security.
 * get the `manta` code production-ready and spin off the testnet
     * In Milestone 1, the server end is build from `2.0.0` version of node template. In Milestone 2, we 
     rebuild the entire node from the bare bones of the substrate, version `3.0.0`.
